@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #02082c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+    background: url('image/l0zlm2nw.png') no-repeat center center/cover;
+    color: #f7f7f7d7;
+    padding: 250px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+    background-color: #7375fcb6;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #070318;
+}
+
+.about-text h3, .about-text h4 {
+    margin: 0;
+}
+
+.about-text p {
+    margin: 20px 0;
+}
+
+.skills {
+    margin: 20px 0;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background: #24269691;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background: #010525;
+    height: 10px;
+}
+
+/* Buttons */
+.buttons .btn {
+    background: #070318;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Services Section Styles */
+#services {
+    background: #7986fc85;
+    padding: 60px 0;
+    text-align: left;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #080ce0;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.service:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.856);
+}
+
+.service i {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+    background-color: #8d8ffcd3;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button.btn {
+    background: #160163;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
